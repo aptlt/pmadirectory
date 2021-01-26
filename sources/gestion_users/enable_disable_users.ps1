@@ -64,7 +64,7 @@ function enable_disable_user {
             $objRecap2.Size = New-Object System.Drawing.Size(280,100)
             $objRecap2.Font = New-Object System.Drawing.Font ("Arial", 9, [System.Drawing.FontStyle]::Bold)
             $objRecap2.ForeColor = "White"
-            $objRecap2.Text = "L'utilisateur $identifiant a bien �t� activ�"
+            $objRecap2.Text = "L'utilisateur $identifiant a bien été activé"
             $objForm.Controls.Add($objRecap2)
             Sleep -s 2
             $objForm.Controls.Remove($objRecap2)  
@@ -75,7 +75,7 @@ function enable_disable_user {
             $objRecap.Size = New-Object System.Drawing.Size(280,100)
             $objRecap.Font = New-Object System.Drawing.Font ("Arial", 9, [System.Drawing.FontStyle]::Bold)
             $objRecap.ForeColor = "White"
-            $objRecap.Text = "L'utilisateur $identifiant est d�j� activ�"
+            $objRecap.Text = "L'utilisateur $identifiant est déjà activé"
             $objForm.Controls.Add($objRecap)
             Sleep -s 2
             $objForm.Controls.Remove($objRecap)          
@@ -92,7 +92,7 @@ function enable_disable_user {
             $objRecap2.Size = New-Object System.Drawing.Size(280,100)
             $objRecap2.Font = New-Object System.Drawing.Font ("Arial", 9, [System.Drawing.FontStyle]::Bold)
             $objRecap2.ForeColor = "White"
-            $objRecap2.Text = "L'utilisateur $identifiant est d�j� desactiv�"
+            $objRecap2.Text = "L'utilisateur $identifiant est déjà desactivé"
             $objForm.Controls.Add($objRecap2)
             Sleep -s 2
             $objForm.Controls.Remove($objRecap2)  
@@ -104,7 +104,7 @@ function enable_disable_user {
             $objRecap.Size = New-Object System.Drawing.Size(280,100)
             $objRecap.Font = New-Object System.Drawing.Font ("Arial", 9, [System.Drawing.FontStyle]::Bold)
             $objRecap.ForeColor = "White"
-            $objRecap.Text = "L'utilisateur $identifiant a bien �t� d�sactive"
+            $objRecap.Text = "L'utilisateur $identifiant a bien été désactivé"
             $objForm.Controls.Add($objRecap)
             Sleep -s 2
             $objForm.Controls.Remove($objRecap)          
